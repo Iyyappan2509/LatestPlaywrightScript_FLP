@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/yourusername/repository.git'
+                url: 'https://github.com/Iyyappan2509/LatestPlaywrightScript_FLP.git'
             }
         }
 
