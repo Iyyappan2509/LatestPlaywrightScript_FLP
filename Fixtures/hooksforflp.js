@@ -1,7 +1,7 @@
 import {test} from '@playwright/test';
 
 test.beforeEach(async ({page})=>{
-await page.goto("https://flptitan.com");
+await page.goto("https://demosite.com");
 console.log("LAUNCHED url..")
 })
 
